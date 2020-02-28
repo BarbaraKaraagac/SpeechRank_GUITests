@@ -1,0 +1,114 @@
+{
+  "uid" : "a6b95dc62efcbe51",
+  "name" : "backHomeRedirection",
+  "fullName" : "tests.Functional.DevConfRedirection.backHomeRedirection",
+  "historyId" : "70fcf8b0e0fbbf603607646dbfec7fe7",
+  "time" : {
+    "start" : 1582842109179,
+    "stop" : 1582842119019,
+    "duration" : 9840
+  },
+  "description" : "The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page",
+  "descriptionHtml" : "<p>The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1582842098434,
+      "stop" : 1582842109175,
+      "duration" : 10741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1582842098429,
+      "stop" : 1582842098432,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1582842119021,
+      "stop" : 1582842120343,
+      "duration" : 1322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "42810dbb5442c17e",
+      "name" : "Page screenshot",
+      "source" : "42810dbb5442c17e.png",
+      "type" : "image/png",
+      "size" : 277454
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "testMethod",
+    "value" : "backHomeRedirection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User Paths - Speech Rank"
+  }, {
+    "name" : "suite",
+    "value" : "Speech Rank - Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "host",
+    "value" : "Basia-Komp"
+  }, {
+    "name" : "thread",
+    "value" : "15904@Basia-Komp.TestNG-tests-2(17)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6b95dc62efcbe51.json",
+  "parameterValues" : [ "CHROME" ]
+}

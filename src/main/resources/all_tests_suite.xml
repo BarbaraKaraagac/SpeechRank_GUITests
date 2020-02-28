@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="User Paths - Speech Rank" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="utils.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Speech Rank - Firefox">
+        <parameter name="browser" value="FIREFOX"/>
+        <classes>
+            <class name="tests.Functional.backHomeRedirection"/>
+            <class name="tests.Functional.AddComment"/>
+            <class name="tests.Functional.DevConfRedirection"/>
+        </classes>
+    </test>
+
+    <test name="Speech Rank - Chrome">
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="tests.Functional.backHomeRedirection"/>
+            <class name="tests.Functional.AddComment"/>
+            <class name="tests.Functional.DevConfRedirection"/>
+
+        </classes>
+    </test>
+
+</suite>

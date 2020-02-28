@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.Functional.AddComment.addComment","7031","The goal of this test is to check the correctness of a comment addition"
+"passed","tests.Functional.backHomeRedirection.backHomeRedirection","18605","The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button"
+"passed","tests.Functional.backHomeRedirection.backHomeRedirection","17370","The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button"
+"passed","tests.Functional.DevConfRedirection.backHomeRedirection","9840","The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page"
+"passed","tests.Functional.AddComment.addComment","19846","The goal of this test is to check the correctness of a comment addition"
+"passed","tests.Functional.DevConfRedirection.backHomeRedirection","2038","The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page"

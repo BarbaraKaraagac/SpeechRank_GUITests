@@ -1,0 +1,113 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "User Paths - Speech Rank",
+    "children" : [ {
+      "name" : "Speech Rank - Firefox",
+      "children" : [ {
+        "name" : "tests.Functional.backHomeRedirection",
+        "children" : [ {
+          "name" : "backHomeRedirection",
+          "uid" : "953f232010ad7e6b",
+          "parentUid" : "8fdd7dcb10a93896d3faa09866984562",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842040015,
+            "stop" : 1582842058620,
+            "duration" : 18605
+          },
+          "flaky" : false,
+          "parameters" : [ "FIREFOX" ]
+        } ],
+        "uid" : "8fdd7dcb10a93896d3faa09866984562"
+      }, {
+        "name" : "tests.Functional.AddComment",
+        "children" : [ {
+          "name" : "addComment",
+          "uid" : "ff15beb137c4e309",
+          "parentUid" : "cbb394eb54787eb60553c0c657ee9050",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842070376,
+            "stop" : 1582842077407,
+            "duration" : 7031
+          },
+          "flaky" : false,
+          "parameters" : [ "FIREFOX" ]
+        } ],
+        "uid" : "cbb394eb54787eb60553c0c657ee9050"
+      }, {
+        "name" : "tests.Functional.DevConfRedirection",
+        "children" : [ {
+          "name" : "backHomeRedirection",
+          "uid" : "1b02def2a58a876d",
+          "parentUid" : "70bb352362356140965368c64664e6e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842102129,
+            "stop" : 1582842104167,
+            "duration" : 2038
+          },
+          "flaky" : false,
+          "parameters" : [ "FIREFOX" ]
+        } ],
+        "uid" : "70bb352362356140965368c64664e6e1"
+      } ],
+      "uid" : "f526222363b9f0a933f107e733cbc654"
+    }, {
+      "name" : "Speech Rank - Chrome",
+      "children" : [ {
+        "name" : "tests.Functional.backHomeRedirection",
+        "children" : [ {
+          "name" : "backHomeRedirection",
+          "uid" : "ae87b02f1751fc42",
+          "parentUid" : "515d0a57687b0da85e5843190f070f69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842041261,
+            "stop" : 1582842058631,
+            "duration" : 17370
+          },
+          "flaky" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "515d0a57687b0da85e5843190f070f69"
+      }, {
+        "name" : "tests.Functional.AddComment",
+        "children" : [ {
+          "name" : "addComment",
+          "uid" : "6381c40bd6c6410b",
+          "parentUid" : "e93bf34ff9b4d2b5108f295f0c60d9aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842075342,
+            "stop" : 1582842095188,
+            "duration" : 19846
+          },
+          "flaky" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "e93bf34ff9b4d2b5108f295f0c60d9aa"
+      }, {
+        "name" : "tests.Functional.DevConfRedirection",
+        "children" : [ {
+          "name" : "backHomeRedirection",
+          "uid" : "a6b95dc62efcbe51",
+          "parentUid" : "5fee74c0c09588f1419d5d15a0a85455",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582842109179,
+            "stop" : 1582842119019,
+            "duration" : 9840
+          },
+          "flaky" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "5fee74c0c09588f1419d5d15a0a85455"
+      } ],
+      "uid" : "f9a3108f0205b6a5cbcfb61a35ec1ff1"
+    } ],
+    "uid" : "d58dbbb4aed33d251b64b8a3077cb534"
+  } ]
+}

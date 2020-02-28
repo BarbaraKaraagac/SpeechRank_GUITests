@@ -1,0 +1,114 @@
+{
+  "uid" : "ae87b02f1751fc42",
+  "name" : "backHomeRedirection",
+  "fullName" : "tests.Functional.backHomeRedirection.backHomeRedirection",
+  "historyId" : "672dfb15656a9a0edb8330fa91496b4",
+  "time" : {
+    "start" : 1582842041261,
+    "stop" : 1582842058631,
+    "duration" : 17370
+  },
+  "description" : "The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button",
+  "descriptionHtml" : "<p>The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1582842028502,
+      "stop" : 1582842041254,
+      "duration" : 12752
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1582842028385,
+      "stop" : 1582842028452,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1582842058649,
+      "stop" : 1582842064710,
+      "duration" : 6061
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bdeb933955a217ee",
+      "name" : "Page screenshot",
+      "source" : "bdeb933955a217ee.png",
+      "type" : "image/png",
+      "size" : 54181
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "testMethod",
+    "value" : "backHomeRedirection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User Paths - Speech Rank"
+  }, {
+    "name" : "suite",
+    "value" : "Speech Rank - Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "host",
+    "value" : "Basia-Komp"
+  }, {
+    "name" : "thread",
+    "value" : "15904@Basia-Komp.TestNG-tests-2(17)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae87b02f1751fc42.json",
+  "parameterValues" : [ "CHROME" ]
+}

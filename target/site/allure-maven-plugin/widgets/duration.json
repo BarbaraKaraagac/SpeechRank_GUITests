@@ -1,0 +1,61 @@
+[ {
+  "uid" : "ff15beb137c4e309",
+  "name" : "addComment",
+  "time" : {
+    "start" : 1582842070376,
+    "stop" : 1582842077407,
+    "duration" : 7031
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "953f232010ad7e6b",
+  "name" : "backHomeRedirection",
+  "time" : {
+    "start" : 1582842040015,
+    "stop" : 1582842058620,
+    "duration" : 18605
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ae87b02f1751fc42",
+  "name" : "backHomeRedirection",
+  "time" : {
+    "start" : 1582842041261,
+    "stop" : 1582842058631,
+    "duration" : 17370
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a6b95dc62efcbe51",
+  "name" : "backHomeRedirection",
+  "time" : {
+    "start" : 1582842109179,
+    "stop" : 1582842119019,
+    "duration" : 9840
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6381c40bd6c6410b",
+  "name" : "addComment",
+  "time" : {
+    "start" : 1582842075342,
+    "stop" : 1582842095188,
+    "duration" : 19846
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1b02def2a58a876d",
+  "name" : "backHomeRedirection",
+  "time" : {
+    "start" : 1582842102129,
+    "stop" : 1582842104167,
+    "duration" : 2038
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

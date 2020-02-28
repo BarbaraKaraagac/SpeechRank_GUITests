@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" class="navigator-link">
+              <span class="suite-name border-passed">User Paths - Speech Rank</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>C:\Users\Basia\Desktop\SpeechRankGUITests\src\main\resources\all_tests_suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-User_Paths_-_Speech_Rank" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" class="hide-methods passed suite-User_Paths_-_Speech_Rank"> (hide)</a> <!-- hide-methods passed suite-User_Paths_-_Speech_Rank -->
+                      <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" class="show-methods passed suite-User_Paths_-_Speech_Rank"> (show)</a> <!-- show-methods passed suite-User_Paths_-_Speech_Rank -->
+                    </span>
+                    <div class="method-list-content passed suite-User_Paths_-_Speech_Rank">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.AddComment" class="method navigator-link" hash-for-method="addComment">addComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.AddComment" class="method navigator-link" hash-for-method="addComment">addComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.backHomeRedirection" class="method navigator-link" hash-for-method="backHomeRedirection">backHomeRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.DevConfRedirection" class="method navigator-link" hash-for-method="backHomeRedirection">backHomeRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.backHomeRedirection" class="method navigator-link" hash-for-method="backHomeRedirection">backHomeRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_Paths_-_Speech_Rank" title="tests.Functional.DevConfRedirection" class="method navigator-link" hash-for-method="backHomeRedirection">backHomeRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-User_Paths_-_Speech_Rank -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-User_Paths_-_Speech_Rank" class="panel User_Paths_-_Speech_Rank">
+          <div class="suite-User_Paths_-_Speech_Rank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Functional.AddComment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addComment">
+                  </a> <!-- addComment -->
+                  <span class="method-name">addComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addComment">
+                  </a> <!-- addComment -->
+                  <span class="method-name">addComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_Paths_-_Speech_Rank-class-passed -->
+          <div class="suite-User_Paths_-_Speech_Rank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Functional.backHomeRedirection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="backHomeRedirection">
+                  </a> <!-- backHomeRedirection -->
+                  <span class="method-name">backHomeRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="backHomeRedirection">
+                  </a> <!-- backHomeRedirection -->
+                  <span class="method-name">backHomeRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_Paths_-_Speech_Rank-class-passed -->
+          <div class="suite-User_Paths_-_Speech_Rank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Functional.DevConfRedirection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="backHomeRedirection">
+                  </a> <!-- backHomeRedirection -->
+                  <span class="method-name">backHomeRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="backHomeRedirection">
+                  </a> <!-- backHomeRedirection -->
+                  <span class="method-name">backHomeRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_Paths_-_Speech_Rank-class-passed -->
+        </div> <!-- panel User_Paths_-_Speech_Rank -->
+        <div panel-name="test-xml-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Basia\Desktop\SpeechRankGUITests\src\main\resources\all_tests_suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;User Paths - Speech Rank&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Speech Rank - Firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FIREFOX&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Functional.backHomeRedirection&quot;/&gt;
+      &lt;class name=&quot;tests.Functional.AddComment&quot;/&gt;
+      &lt;class name=&quot;tests.Functional.DevConfRedirection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Speech Rank - Firefox --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Speech Rank - Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Functional.backHomeRedirection&quot;/&gt;
+      &lt;class name=&quot;tests.Functional.AddComment&quot;/&gt;
+      &lt;class name=&quot;tests.Functional.DevConfRedirection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Speech Rank - Chrome --&gt;
+&lt;/suite&gt; &lt;!-- User Paths - Speech Rank --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for User Paths - Speech Rank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Speech Rank - Firefox (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Speech Rank - Chrome (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for User Paths - Speech Rank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for User Paths - Speech Rank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_User_Paths_-_Speech_Rank');
+function tableData_User_Paths_-_Speech_Rank() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addComment')
+data.setCell(0, 2, 'tests.Functional.AddComment')
+data.setCell(0, 3, 19848);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'backHomeRedirection')
+data.setCell(1, 2, 'tests.Functional.backHomeRedirection')
+data.setCell(1, 3, 18826);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'backHomeRedirection')
+data.setCell(2, 2, 'tests.Functional.backHomeRedirection')
+data.setCell(2, 3, 17372);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'backHomeRedirection')
+data.setCell(3, 2, 'tests.Functional.DevConfRedirection')
+data.setCell(3, 3, 9843);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addComment')
+data.setCell(4, 2, 'tests.Functional.AddComment')
+data.setCell(4, 3, 7035);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'backHomeRedirection')
+data.setCell(5, 2, 'tests.Functional.DevConfRedirection')
+data.setCell(5, 3, 2044);
+window.suiteTableData['User_Paths_-_Speech_Rank']= { tableData: data, tableDiv: 'times-div-User_Paths_-_Speech_Rank'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-User_Paths_-_Speech_Rank">
+              </div> <!-- times-div-User_Paths_-_Speech_Rank -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for User Paths - Speech Rank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-User_Paths_-_Speech_Rank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Functional.backHomeRedirection</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(CHROME)</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(FIREFOX)</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">backHomeRedirection</span>
+                <span class="method-start">11450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">backHomeRedirection</span>
+                <span class="method-start">12919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">30308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">30368 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Functional.AddComment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">35376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(FIREFOX)</span>
+                <span class="method-start">35379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">36373 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(CHROME)</span>
+                <span class="method-start">36376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addComment</span>
+                <span class="method-start">42032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addComment</span>
+                <span class="method-start">47000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">49070 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Functional.DevConfRedirection</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">66250 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(FIREFOX)</span>
+                <span class="method-start">66253 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Functional.AddComment</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">66851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Functional.DevConfRedirection</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">70089 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(CHROME)</span>
+                <span class="method-start">70093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">backHomeRedirection</span>
+                <span class="method-start">73783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">75844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">backHomeRedirection</span>
+                <span class="method-start">80836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">90681 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

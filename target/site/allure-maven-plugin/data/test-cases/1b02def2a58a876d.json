@@ -1,0 +1,114 @@
+{
+  "uid" : "1b02def2a58a876d",
+  "name" : "backHomeRedirection",
+  "fullName" : "tests.Functional.DevConfRedirection.backHomeRedirection",
+  "historyId" : "41b1c78d582cf08e471b753758381ed8",
+  "time" : {
+    "start" : 1582842102129,
+    "stop" : 1582842104167,
+    "duration" : 2038
+  },
+  "description" : "The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page",
+  "descriptionHtml" : "<p>The purpose of this test is to verify the correctness of a redirection to /nthe DevConf page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1582842094591,
+      "stop" : 1582842094593,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1582842094594,
+      "stop" : 1582842102121,
+      "duration" : 7527
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1582842104185,
+      "stop" : 1582842106676,
+      "duration" : 2491
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77e568218018f7af",
+      "name" : "Page screenshot",
+      "source" : "77e568218018f7af.png",
+      "type" : "image/png",
+      "size" : 33510
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "testMethod",
+    "value" : "backHomeRedirection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User Paths - Speech Rank"
+  }, {
+    "name" : "suite",
+    "value" : "Speech Rank - Firefox"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Functional.DevConfRedirection"
+  }, {
+    "name" : "host",
+    "value" : "Basia-Komp"
+  }, {
+    "name" : "thread",
+    "value" : "15904@Basia-Komp.TestNG-tests-1(16)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "FIREFOX"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b02def2a58a876d.json",
+  "parameterValues" : [ "FIREFOX" ]
+}

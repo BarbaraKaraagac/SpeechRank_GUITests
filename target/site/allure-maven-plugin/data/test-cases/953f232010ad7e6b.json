@@ -1,0 +1,114 @@
+{
+  "uid" : "953f232010ad7e6b",
+  "name" : "backHomeRedirection",
+  "fullName" : "tests.Functional.backHomeRedirection.backHomeRedirection",
+  "historyId" : "4b93efb10343d5814b8bf8aab443021e",
+  "time" : {
+    "start" : 1582842040015,
+    "stop" : 1582842058620,
+    "duration" : 18605
+  },
+  "description" : "The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button",
+  "descriptionHtml" : "<p>The purpose of this test is to verify the correctness of a redirection to /nthe home page via Speech Rank logo button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1582842028505,
+      "stop" : 1582842039140,
+      "duration" : 10635
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1582842028385,
+      "stop" : 1582842028488,
+      "duration" : 103
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1582842058709,
+      "stop" : 1582842063712,
+      "duration" : 5003
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8dde9c07b45eadfc",
+      "name" : "Page screenshot",
+      "source" : "8dde9c07b45eadfc.png",
+      "type" : "image/png",
+      "size" : 43712
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "testMethod",
+    "value" : "backHomeRedirection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User Paths - Speech Rank"
+  }, {
+    "name" : "suite",
+    "value" : "Speech Rank - Firefox"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Functional.backHomeRedirection"
+  }, {
+    "name" : "host",
+    "value" : "Basia-Komp"
+  }, {
+    "name" : "thread",
+    "value" : "15904@Basia-Komp.TestNG-tests-1(16)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "FIREFOX"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "953f232010ad7e6b.json",
+  "parameterValues" : [ "FIREFOX" ]
+}

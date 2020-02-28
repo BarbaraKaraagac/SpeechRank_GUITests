@@ -1,0 +1,89 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Basia-Komp",
+    "children" : [ {
+      "name" : "15904@Basia-Komp.TestNG-tests-1(16)",
+      "children" : [ {
+        "name" : "addComment",
+        "uid" : "ff15beb137c4e309",
+        "parentUid" : "2773aee479ccc0d4093f7115c05b5635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842070376,
+          "stop" : 1582842077407,
+          "duration" : 7031
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      }, {
+        "name" : "backHomeRedirection",
+        "uid" : "953f232010ad7e6b",
+        "parentUid" : "2773aee479ccc0d4093f7115c05b5635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842040015,
+          "stop" : 1582842058620,
+          "duration" : 18605
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      }, {
+        "name" : "backHomeRedirection",
+        "uid" : "1b02def2a58a876d",
+        "parentUid" : "2773aee479ccc0d4093f7115c05b5635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842102129,
+          "stop" : 1582842104167,
+          "duration" : 2038
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "2773aee479ccc0d4093f7115c05b5635"
+    }, {
+      "name" : "15904@Basia-Komp.TestNG-tests-2(17)",
+      "children" : [ {
+        "name" : "backHomeRedirection",
+        "uid" : "ae87b02f1751fc42",
+        "parentUid" : "cf4309adccd588f3a465533ea9a246f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842041261,
+          "stop" : 1582842058631,
+          "duration" : 17370
+        },
+        "flaky" : false,
+        "parameters" : [ "CHROME" ]
+      }, {
+        "name" : "backHomeRedirection",
+        "uid" : "a6b95dc62efcbe51",
+        "parentUid" : "cf4309adccd588f3a465533ea9a246f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842109179,
+          "stop" : 1582842119019,
+          "duration" : 9840
+        },
+        "flaky" : false,
+        "parameters" : [ "CHROME" ]
+      }, {
+        "name" : "addComment",
+        "uid" : "6381c40bd6c6410b",
+        "parentUid" : "cf4309adccd588f3a465533ea9a246f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582842075342,
+          "stop" : 1582842095188,
+          "duration" : 19846
+        },
+        "flaky" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "cf4309adccd588f3a465533ea9a246f0"
+    } ],
+    "uid" : "d88cfac95eab5561690dcef92a3fab1a"
+  } ]
+}

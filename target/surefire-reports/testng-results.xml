@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-27T22:20:28Z" name="User Paths - Speech Rank" finished-at="2020-02-27T22:22:00Z" duration-ms="92044">
+    <groups>
+    </groups>
+    <test started-at="2020-02-27T22:20:28Z" name="Speech Rank - Firefox" finished-at="2020-02-27T22:21:46Z" duration-ms="78381">
+      <class name="tests.Functional.AddComment">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.AddComment@4fe64d23]" started-at="2020-02-27T22:21:03Z" name="beforeClass" finished-at="2020-02-27T22:21:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.AddComment@4fe64d23]" started-at="2020-02-27T22:21:03Z" name="beforeTest" finished-at="2020-02-27T22:21:10Z" duration-ms="6651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="addComment()[pri:0, instance:tests.Functional.AddComment@4fe64d23]" started-at="2020-02-27T22:21:10Z" name="addComment" finished-at="2020-02-27T22:21:17Z" duration-ms="7035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.AddComment@4fe64d23]" started-at="2020-02-27T22:21:17Z" name="afterTest" finished-at="2020-02-27T22:21:34Z" duration-ms="17177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.AddComment -->
+      <class name="tests.Functional.backHomeRedirection">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.backHomeRedirection@5399f6c5]" started-at="2020-02-27T22:20:28Z" name="beforeClass" finished-at="2020-02-27T22:20:28Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.backHomeRedirection@5399f6c5]" started-at="2020-02-27T22:20:28Z" name="beforeTest" finished-at="2020-02-27T22:20:39Z" duration-ms="10647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="backHomeRedirection()[pri:0, instance:tests.Functional.backHomeRedirection@5399f6c5]" started-at="2020-02-27T22:20:39Z" name="backHomeRedirection" finished-at="2020-02-27T22:20:58Z" duration-ms="18826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backHomeRedirection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.backHomeRedirection@5399f6c5]" started-at="2020-02-27T22:20:58Z" name="afterTest" finished-at="2020-02-27T22:21:03Z" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.backHomeRedirection -->
+      <class name="tests.Functional.DevConfRedirection">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.DevConfRedirection@58437801]" started-at="2020-02-27T22:21:34Z" name="beforeClass" finished-at="2020-02-27T22:21:34Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.DevConfRedirection@58437801]" started-at="2020-02-27T22:21:34Z" name="beforeTest" finished-at="2020-02-27T22:21:42Z" duration-ms="7528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="backHomeRedirection()[pri:0, instance:tests.Functional.DevConfRedirection@58437801]" started-at="2020-02-27T22:21:42Z" name="backHomeRedirection" finished-at="2020-02-27T22:21:44Z" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backHomeRedirection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.DevConfRedirection@58437801]" started-at="2020-02-27T22:21:44Z" name="afterTest" finished-at="2020-02-27T22:21:46Z" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.DevConfRedirection -->
+    </test> <!-- Speech Rank - Firefox -->
+    <test started-at="2020-02-27T22:20:28Z" name="Speech Rank - Chrome" finished-at="2020-02-27T22:22:00Z" duration-ms="92042">
+      <class name="tests.Functional.AddComment">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.AddComment@29fa6b65]" started-at="2020-02-27T22:21:04Z" name="beforeClass" finished-at="2020-02-27T22:21:04Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.AddComment@29fa6b65]" started-at="2020-02-27T22:21:04Z" name="beforeTest" finished-at="2020-02-27T22:21:15Z" duration-ms="10621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="addComment()[pri:0, instance:tests.Functional.AddComment@29fa6b65]" started-at="2020-02-27T22:21:15Z" name="addComment" finished-at="2020-02-27T22:21:35Z" duration-ms="19848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.AddComment@29fa6b65]" started-at="2020-02-27T22:21:35Z" name="afterTest" finished-at="2020-02-27T22:21:38Z" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.AddComment -->
+      <class name="tests.Functional.backHomeRedirection">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.backHomeRedirection@35e26d05]" started-at="2020-02-27T22:20:28Z" name="beforeClass" finished-at="2020-02-27T22:20:28Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.backHomeRedirection@35e26d05]" started-at="2020-02-27T22:20:28Z" name="beforeTest" finished-at="2020-02-27T22:20:41Z" duration-ms="12761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="backHomeRedirection()[pri:0, instance:tests.Functional.backHomeRedirection@35e26d05]" started-at="2020-02-27T22:20:41Z" name="backHomeRedirection" finished-at="2020-02-27T22:20:58Z" duration-ms="17372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backHomeRedirection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.backHomeRedirection@35e26d05]" started-at="2020-02-27T22:20:58Z" name="afterTest" finished-at="2020-02-27T22:21:04Z" duration-ms="6062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.backHomeRedirection -->
+      <class name="tests.Functional.DevConfRedirection">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.Functional.DevConfRedirection@7c72ecc]" started-at="2020-02-27T22:21:38Z" name="beforeClass" finished-at="2020-02-27T22:21:38Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.manager.BrowserType)[pri:0, instance:tests.Functional.DevConfRedirection@7c72ecc]" started-at="2020-02-27T22:21:38Z" name="beforeTest" finished-at="2020-02-27T22:21:49Z" duration-ms="10742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="backHomeRedirection()[pri:0, instance:tests.Functional.DevConfRedirection@7c72ecc]" started-at="2020-02-27T22:21:49Z" name="backHomeRedirection" finished-at="2020-02-27T22:21:59Z" duration-ms="9843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backHomeRedirection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Functional.DevConfRedirection@7c72ecc]" started-at="2020-02-27T22:21:59Z" name="afterTest" finished-at="2020-02-27T22:22:00Z" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Functional.DevConfRedirection -->
+    </test> <!-- Speech Rank - Chrome -->
+  </suite> <!-- User Paths - Speech Rank -->
+</testng-results>
