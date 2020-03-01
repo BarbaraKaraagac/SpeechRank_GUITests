@@ -13,7 +13,7 @@ import waits.WaitForElement;
 
 public class HomePage {
 
-    public static Logger logger = LogManager.getLogger(HomePage.class);
+    private static Logger logger = LogManager.getLogger(HomePage.class);
 
     @FindBy(css = "body > ui-view > header > div > nav > div.navbar-header > a")
     private  static WebElement MainLogo;
@@ -61,9 +61,15 @@ public class HomePage {
     @FindBy(css = "body > ui-view > ui-view > div > div:nth-child(9) > div:nth-child(2) > div > a > p")
     private static WebElement DevConf2017;
 
-    public String defaultName ="Some conference name";
-    public String year = "2019";
-    public String playlistID ="PLVT0blg4rCWCUv3oEMQ12haQkMQ1drefo";
+    @FindBy(css = "body > ui-view > ui-view > div > div:nth-child(7) > div:nth-child(2) > div:nth-child(5) > a")
+    private static WebElement NewConference;
+
+    @FindBy(css = "body > ui-view > ui-view > div > div:nth-child(2) > div:nth-child(2) > div.col-md-7 > h3")
+    private static WebElement ConferenceTitle;
+
+    private String defaultName ="Some conference name";
+    private String year = "2019";
+    private String playlistID ="PLVT0blg4rCWCUv3oEMQ12haQkMQ1drefo";
 
     public HomePage() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
@@ -72,7 +78,7 @@ public class HomePage {
     public String Import(){
 
         // Create an instance of JavascriptExecutor
-        JavascriptExecutor js = (JavascriptExecutor) DriverManager.getWebDriver();;
+        JavascriptExecutor js = (JavascriptExecutor) DriverManager.getWebDriver();
 
         confName.clear();
         confName.sendKeys(defaultName);
@@ -89,10 +95,15 @@ public class HomePage {
         js.executeScript("window.scrollBy(0,1000);");
 
         ImportButton.click();
+        WaitForElement.waitUntilElementIsVisible(NewConference);
 
-        String finalAlertText = playlistId.getText();
+        NewConference.click();
+        WaitForElement.waitUntilElementIsVisible(ConferenceTitle);
 
-        return finalAlertText;
+        String conferenceTitle = ConferenceTitle.getText();
+
+        return conferenceTitle;
+
     }
 
     public static String goHome()
