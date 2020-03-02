@@ -3,6 +3,8 @@ This is a repository of GUI Tests for the https://github.com/NetworkedCoders/spe
 
 # Before
 
+The project requires Java 8.
+
 Get the project:
 
 `https://github.com/NetworkedCoders/speech-rank` 
